@@ -1,0 +1,28 @@
+Variance expliquee par axe :
+  axe1 : 16.5% (cumule 16.5%)
+  axe2 : 11.6% (cumule 28.1%)
+  axe3 : 9.5% (cumule 37.6%)
+  axe4 : 9.2% (cumule 46.8%)
+  axe5 : 9.2% (cumule 56.0%)
+  axe6 : 9.1% (cumule 65.1%)
+  axe7 : 8.8% (cumule 73.9%)
+  axe8 : 8.1% (cumule 82.0%)
+  axe9 : 7.7% (cumule 89.7%)
+  axe10 : 6.2% (cumule 95.9%)
+  axe11 : 4.1% (cumule 100.0%)
+
+Il faut 8 axes pour depasser 80% de variance expliquee.
+
+Contributions des variables aux 3 premiers axes (loadings) :
+                                  axe1   axe2   axe3
+salaire_annuel_net               0.621 -0.098  0.001
+solde_moyen_compte               0.511 -0.130  0.043
+age                              0.439  0.166  0.045
+montant_moyen_transaction        0.363 -0.174 -0.274
+score_credit                     0.142  0.694 -0.058
+nb_transactions_mois            -0.051 -0.094 -0.574
+nombre_produits                  0.050  0.043  0.741
+nb_reclamations_12mois          -0.043  0.006 -0.035
+nb_connexions_appli_mois         0.036  0.031 -0.061
+anciennete_mois                  0.018  0.650 -0.143
+jours_depuis_derniere_connexion -0.013  0.006 -0.120

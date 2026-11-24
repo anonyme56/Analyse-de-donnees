@@ -1,0 +1,31 @@
+{
+  "regression_logistique": {
+    "auc_test": 0.8134,
+    "auc_train": 0.8413,
+    "ecart_train_test": 0.0279,
+    "f1": 0.5613,
+    "precision": 0.4833,
+    "rappel": 0.6692,
+    "temps_entrainement_s": 0.0198,
+    "auc_cv5_moyenne": 0.8163,
+    "auc_cv5_ecart_type": 0.0091
+  },
+  "arbre_de_decision": {
+    "auc_test": 0.7676,
+    "auc_train": 0.8477,
+    "ecart_train_test": 0.0801,
+    "f1": 0.5252,
+    "precision": 0.4932,
+    "rappel": 0.5615,
+    "temps_entrainement_s": 0.01
+  },
+  "random_forest": {
+    "auc_test": 0.8081,
+    "auc_train": 0.9734,
+    "ecart_train_test": 0.1653,
+    "f1": 0.5408,
+    "precision": 0.6117,
+    "rappel": 0.4846,
+    "temps_entrainement_s": 0.3221
+  }
+}

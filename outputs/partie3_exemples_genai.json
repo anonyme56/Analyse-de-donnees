@@ -1,0 +1,52 @@
+[
+  {
+    "id_client": 100331,
+    "message_client": "Monsieur, client depuis 78 mois (compte courant), presente un risque de resiliation lie a plusieurs reclamations recentes. Action recommandee : proposer un point telephonique pour revoir son offre et lui presenter les produits complementaires adaptes. Canal de contact prefere : Agence.",
+    "resume_conseiller": "Client 100331 : anciennete 78 mois, 1 produit(s), solde moyen 5733 EUR, salaire annuel estime 28487 EUR, score de satisfaction 1.0/5, 5 reclamation(s) sur 12 mois.",
+    "evaluation": {
+      "nb_mots": 41,
+      "longueur_moyenne_phrase": 10.2,
+      "couverture_elements_attendus": 0.75
+    }
+  },
+  {
+    "id_client": 100355,
+    "message_client": "Madame, client depuis 10 mois (compte courant), presente un risque de resiliation lie a plusieurs reclamations recentes. Action recommandee : proposer un point telephonique pour revoir son offre et lui presenter les produits complementaires adaptes. Canal de contact prefere : Email.",
+    "resume_conseiller": "Client 100355 : anciennete 10 mois, 1 produit(s), solde moyen 1789 EUR, salaire annuel estime 38587 EUR, score de satisfaction 3.0/5, 5 reclamation(s) sur 12 mois.",
+    "evaluation": {
+      "nb_mots": 41,
+      "longueur_moyenne_phrase": 10.2,
+      "couverture_elements_attendus": 0.75
+    }
+  },
+  {
+    "id_client": 100217,
+    "message_client": "Monsieur, client depuis 40 mois (compte courant), presente un risque de resiliation lie a plusieurs reclamations recentes. Action recommandee : proposer un point telephonique pour revoir son offre et lui presenter les produits complementaires adaptes. Canal de contact prefere : Appel.",
+    "resume_conseiller": "Client 100217 : anciennete 40 mois, 1 produit(s), solde moyen 3862 EUR, salaire annuel estime 39399 EUR, score de satisfaction 1.0/5, 5 reclamation(s) sur 12 mois.",
+    "evaluation": {
+      "nb_mots": 41,
+      "longueur_moyenne_phrase": 10.2,
+      "couverture_elements_attendus": 0.75
+    }
+  },
+  {
+    "id_client": 101755,
+    "message_client": "Madame, client depuis 96 mois (compte professionnel), presente un risque de resiliation lie a plusieurs reclamations recentes. Action recommandee : proposer un point telephonique pour revoir son offre et lui presenter les produits complementaires adaptes. Canal de contact prefere : Agence.",
+    "resume_conseiller": "Client 101755 : anciennete 96 mois, 1 produit(s), solde moyen 6327 EUR, salaire annuel estime 44179 EUR, score de satisfaction 1.0/5, 5 reclamation(s) sur 12 mois.",
+    "evaluation": {
+      "nb_mots": 41,
+      "longueur_moyenne_phrase": 10.2,
+      "couverture_elements_attendus": 0.75
+    }
+  },
+  {
+    "id_client": 101192,
+    "message_client": "Madame, client depuis 63 mois (compte professionnel), presente un risque de resiliation lie a plusieurs reclamations recentes. Action recommandee : proposer un point telephonique pour revoir son offre et lui presenter les produits complementaires adaptes. Canal de contact prefere : Agence.",
+    "resume_conseiller": "Client 101192 : anciennete 63 mois, 1 produit(s), solde moyen 6168 EUR, salaire annuel estime 38977 EUR, score de satisfaction 2.0/5, 5 reclamation(s) sur 12 mois.",
+    "evaluation": {
+      "nb_mots": 41,
+      "longueur_moyenne_phrase": 10.2,
+      "couverture_elements_attendus": 0.75
+    }
+  }
+]

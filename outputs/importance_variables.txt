@@ -1,0 +1,10 @@
+nb_reclamations_12mois             0.1850
+score_satisfaction                 0.1807
+jours_depuis_derniere_connexion    0.0897
+anciennete_mois                    0.0734
+solde_moyen_compte                 0.0523
+montant_moyen_transaction          0.0504
+salaire_annuel_net                 0.0502
+score_credit                       0.0489
+age                                0.0426
+nb_transactions_mois               0.0403

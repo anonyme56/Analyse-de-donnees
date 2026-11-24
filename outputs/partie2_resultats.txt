@@ -1,0 +1,13 @@
+Rendement journalier moyen et volatilite annualisee moyenne :
+  Tesla : rendement moyen/jour = 0.161%, volatilite annualisee moyenne = 0.569
+  Stellantis : rendement moyen/jour = -0.149%, volatilite annualisee moyenne = 0.481
+
+Performance cumulee sur la periode (2y) :
+  Tesla : 57.2%
+  Stellantis : -63.4%
+
+Correlation (mensuelle) entre taux de churn interne et volatilite des marches :
+  Tesla : r = -0.607
+  Stellantis : r = 0.047
+
+Note : correlation calculee sur peu de points mensuels, a interpreter avec prudence, elle sert surtout a illustrer la demarche d'articulation donnees internes / externes.

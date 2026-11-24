@@ -1,0 +1,38 @@
+Nombre de lignes / colonnes de depart : (2200, 23)
+Valeurs manquantes par colonne :
+situation_familiale      22
+score_credit             66
+salaire_annuel_net       55
+score_satisfaction       33
+canal_contact_prefere    44
+Valeurs aberrantes detectees :
+- age hors [18, 100] : 4 lignes -> plafonnees a 100
+- score_credit hors IQR*3 [313.0, 845.0] : 0 lignes -> plafonnees
+- salaire_annuel_net hors IQR*3 [-16011.6, 91373.0] : 4 lignes -> plafonnees
+- solde_moyen_compte hors IQR*3 [-9568.5, 17901.1] : 4 lignes -> plafonnees
+- montant_moyen_transaction hors IQR*3 [-40.9, 136.3] : 0 lignes -> plafonnees
+
+Typage statistique retenu :
+- id_client : identifiant
+- age : quantitative discrete
+- sexe : qualitative nominale
+- situation_familiale : qualitative nominale
+- region : qualitative nominale
+- anciennete_mois : quantitative discrete
+- type_compte : qualitative nominale
+- nombre_produits : quantitative discrete
+- carte_credit : qualitative nominale (binaire)
+- membre_actif : qualitative nominale (binaire)
+- score_credit : quantitative continue
+- salaire_annuel_net : quantitative continue
+- solde_moyen_compte : quantitative continue
+- montant_moyen_transaction : quantitative continue
+- nb_transactions_mois : quantitative discrete
+- utilise_appli_mobile : qualitative nominale (binaire)
+- nb_connexions_appli_mois : quantitative discrete
+- jours_depuis_derniere_connexion : quantitative discrete
+- nb_reclamations_12mois : quantitative discrete
+- score_satisfaction : qualitative ordinale (1 a 5)
+- canal_contact_prefere : qualitative nominale
+- date_dernier_contact : date
+- churn : qualitative nominale (binaire, cible)

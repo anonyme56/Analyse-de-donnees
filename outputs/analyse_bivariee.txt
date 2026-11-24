@@ -1,0 +1,32 @@
+Paires de variables quantitatives les plus correlees (Pearson, valeur absolue) :
+  salaire_annuel_net / solde_moyen_compte : r = 0.473
+  salaire_annuel_net / age : r = 0.347
+  salaire_annuel_net / montant_moyen_transaction : r = 0.284
+  anciennete_mois / score_credit : r = 0.251
+  age / score_credit : r = 0.172
+  age / solde_moyen_compte : r = 0.150
+
+Tests du Chi2 (variable qualitative vs churn) :
+  sexe : chi2=0.87, ddl=1, p=0.3515 -> non significatif
+  situation_familiale : chi2=3.67, ddl=4, p=0.4520 -> non significatif
+  region : chi2=12.82, ddl=9, p=0.1711 -> non significatif
+  type_compte : chi2=3.78, ddl=2, p=0.1511 -> non significatif
+  carte_credit : chi2=0.05, ddl=1, p=0.8149 -> non significatif
+  membre_actif : chi2=4.05, ddl=1, p=0.0442 -> significatif (p<0.05)
+  utilise_appli_mobile : chi2=0.85, ddl=1, p=0.3559 -> non significatif
+  canal_contact_prefere : chi2=4.80, ddl=4, p=0.3080 -> non significatif
+
+Comparaison de moyennes (t-test) quantitatif vs churn :
+  age : moy(churn=Oui)=42.09, moy(churn=Non)=42.10, t=-0.02, p=0.9857 -> non significatif
+  anciennete_mois : moy(churn=Oui)=53.92, moy(churn=Non)=66.19, t=-6.64, p=0.0000 -> significatif (p<0.05)
+  nombre_produits : moy(churn=Oui)=1.95, moy(churn=Non)=2.10, t=-3.45, p=0.0006 -> significatif (p<0.05)
+  score_credit : moy(churn=Oui)=579.14, moy(churn=Non)=580.27, t=-0.40, p=0.6922 -> non significatif
+  salaire_annuel_net : moy(churn=Oui)=37619.49, moy(churn=Non)=38065.24, t=-0.77, p=0.4404 -> non significatif
+  solde_moyen_compte : moy(churn=Oui)=4261.52, moy(churn=Non)=4312.40, t=-0.36, p=0.7208 -> non significatif
+  montant_moyen_transaction : moy(churn=Oui)=47.46, moy(churn=Non)=47.76, t=-0.33, p=0.7449 -> non significatif
+  nb_transactions_mois : moy(churn=Oui)=14.15, moy(churn=Non)=14.00, t=0.82, p=0.4105 -> non significatif
+  nb_connexions_appli_mois : moy(churn=Oui)=6.75, moy(churn=Non)=6.85, t=-0.39, p=0.6934 -> non significatif
+  jours_depuis_derniere_connexion : moy(churn=Oui)=23.74, moy(churn=Non)=16.55, t=6.63, p=0.0000 -> significatif (p<0.05)
+  nb_reclamations_12mois : moy(churn=Oui)=1.59, moy(churn=Non)=0.66, t=17.35, p=0.0000 -> significatif (p<0.05)
+
+ANOVA nb_reclamations_12mois selon region : F=1.18, p=0.3001
